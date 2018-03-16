@@ -31,7 +31,7 @@ class WelcomeViewController: UIViewController {
             alertController.addAction(UIAlertAction(title: "Login", style: .default, handler: { [unowned self] alert -> Void in
                 
                 let _ = alertController.textFields![0] as UITextField
-                let credentials = SyncCredentials.usernamePassword(username: "nugee2", password: "nugee2", register: false)
+                let credentials = SyncCredentials.usernamePassword(username: "nugee", password: "nugee", register: false)
                 
                 SyncUser.logIn(with: credentials, server: Constants.AUTH_URL, onCompletion: { [weak self] (user, error) in
                     
