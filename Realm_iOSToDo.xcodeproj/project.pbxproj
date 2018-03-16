@@ -15,6 +15,7 @@
 		E3496663205B182000951CFA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3496662205B182000951CFA /* Constants.swift */; };
 		E3496665205B188200951CFA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3496664205B188200951CFA /* WelcomeViewController.swift */; };
 		E3496667205B1E7200951CFA /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3496666205B1E7200951CFA /* Items.swift */; };
+		E3496669205B24FD00951CFA /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3496668205B24FD00951CFA /* ItemsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E3496662205B182000951CFA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E3496664205B188200951CFA /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E3496666205B1E7200951CFA /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		E3496668205B24FD00951CFA /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				E3496662205B182000951CFA /* Constants.swift */,
 				E3496664205B188200951CFA /* WelcomeViewController.swift */,
 				E3496666205B1E7200951CFA /* Items.swift */,
+				E3496668205B24FD00951CFA /* ItemsViewController.swift */,
 				E3496652205B150000951CFA /* ViewController.swift */,
 				E3496657205B150000951CFA /* Assets.xcassets */,
 				E3496659205B150000951CFA /* LaunchScreen.storyboard */,
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3496653205B150000951CFA /* ViewController.swift in Sources */,
+				E3496669205B24FD00951CFA /* ItemsViewController.swift in Sources */,
 				E3496667205B1E7200951CFA /* Items.swift in Sources */,
 				E3496665205B188200951CFA /* WelcomeViewController.swift in Sources */,
 				E3496651205B150000951CFA /* AppDelegate.swift in Sources */,

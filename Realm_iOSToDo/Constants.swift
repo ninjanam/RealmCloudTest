@@ -10,9 +10,10 @@ import Foundation
 
 struct Constants {
 
-    static let MY_INSTANCE_ADDRESS =  "realm-test-nav.us1a.cloud.realm.io"
+//    static let MY_INSTANCE_ADDRESS =  "realm-test-nav.us1a.cloud.realm.io"
+    static let MY_INSTANCE_ADDRESS = "tentwelve.us1a.cloud.realm.io"
     
     static let AUTH_URL = URL(string: "https://\(MY_INSTANCE_ADDRESS)")!
-    static let REALM_URL = URL(string: "realms://\(MY_INSTANCE_ADDRESS)/realmtasks")!
+    static let REALM_URL = URL(string: "realms://\(MY_INSTANCE_ADDRESS)/iOSToDo")!
     
 }
